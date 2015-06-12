@@ -36,6 +36,14 @@ class OrElseTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
+    public function it_will_return_the_other_value_if_the_original_method_returns_false()
+    {
+        $this->assertEquals('otherValue', $this->testClass->willReturnOrElse(false, 'otherValue'));
+    }
+
+    /**
+     * @test
+     */
     public function it_will_return_the_result_of_the_closure_if_the_original_method_returns_null()
     {
         $this->assertEquals('closureValue', $this->testClass->willReturnOrElse(null, function() { return 'closureValue'; }));

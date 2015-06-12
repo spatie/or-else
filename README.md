@@ -19,7 +19,7 @@ $ composer require spatie/or-else
 ## Usage
 
 When implementing the `OrElse`-trait to a class, all methods of the class will have a `OrElse`-variant.
-That variant has an extra parameter that will be returned if the orginal function returns `null`.
+That variant has an extra parameter that will be returned if the original function returns `null` or `false`.
 
 Consider this simple class that implements the `orElse`-trait.
 
@@ -48,7 +48,8 @@ The trait dynamically adds a `willReturnOrElse`-method.
 ```php
 $testClass = new TestClass;
 $testClass->willReturn('value'); // returns 'value';
-$testClass->willReturn(null', 'otherValue') // return 'otherValue';
+$testClass->willReturnOrElse(null', 'otherValue') // returns 'otherValue';
+$testClass->willReturnOrElse(false', 'otherValue') // returns 'otherValue';
 ```
 
 ## Change log

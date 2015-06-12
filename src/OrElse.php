@@ -16,7 +16,7 @@ trait OrElse
 
             $result = call_user_func_array([$this, $methodName], $args);
 
-            if (is_null($result)) {
+            if (is_null($result) || $result === false) {
                 return is_callable($orElse) ? $orElse() : $orElse;
             }
 
