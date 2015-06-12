@@ -50,7 +50,7 @@ $testClass = new TestClass;
 $testClass->willReturn('value'); // returns 'value';
 $testClass->willReturnOrElse('value', 'otherValue'); // returns 'otherValue';
 $testClass->willReturnOrElse(null, 'otherValue'); // returns 'otherValue';
-$testClass->willReturnOrElse(false', 'otherValue'); // returns 'otherValue';
+$testClass->willReturnOrElse(false, 'otherValue'); // returns 'otherValue';
 $testClass->willReturnOrElse(false', function() { return 'closureValue'; }); // returns 'closureValue';
 ```
 
