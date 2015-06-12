@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Skeleton\Test;
+namespace Spatie\Skeleton\Test;
 
 use Spatie\OrElse\Test\TestClass;
 
