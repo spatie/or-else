@@ -48,7 +48,7 @@ The trait dynamically adds a `willReturnOrElse`-method.
 ```php
 $testClass = new TestClass;
 $testClass->willReturn('value'); // returns 'value';
-$testClass->willReturnOrElse(null', 'otherValue'); // returns 'otherValue';
+$testClass->willReturnOrElse(null, 'otherValue'); // returns 'otherValue';
 $testClass->willReturnOrElse(false', 'otherValue'); // returns 'otherValue';
 ```
 
