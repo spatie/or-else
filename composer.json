@@ -2,8 +2,9 @@
     "name": "spatie/or-else",
     "description": "A trait to add orElse functions to a class",
     "keywords": [
-        "league",
-        "or-else"
+        "spatie",
+        "or-else",
+        "optional"
     ],
     "homepage": "https://github.com/spatie/or-else",
     "license": "MIT",
