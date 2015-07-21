@@ -9,6 +9,8 @@
 
 This package adds an `orElse`-trait to your project.
 
+Spatie is webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
+
 ## Install
 
 You can install the package via composer:
@@ -77,6 +79,9 @@ If you discover any security related issues, please email freek@spatie.be instea
 - [Freek Van der Herten](https://murze.be)
 - [Edd Mann](https://twitter.com/edd_mann)
 - [All Contributors](../../contributors)
+
+## About Spatie
+Spatie is webdesign agency in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
 
 ## License
 
