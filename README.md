@@ -50,10 +50,10 @@ The trait dynamically adds a `willReturnOrElse`-method.
 ```php
 $testClass = new TestClass;
 $testClass->willReturn('value'); // returns 'value';
-$testClass->willReturnOrElse('value', 'otherValue'); // returns 'otherValue';
+$testClass->willReturnOrElse('value', 'otherValue'); // returns 'value';
 $testClass->willReturnOrElse(null, 'otherValue'); // returns 'otherValue';
 $testClass->willReturnOrElse(false, 'otherValue'); // returns 'otherValue';
-$testClass->willReturnOrElse(false', function() { return 'closureValue'; }); // returns 'closureValue';
+$testClass->willReturnOrElse(false, function() { return 'closureValue'; }); // returns 'closureValue';
 ```
 
 ## Change log
