@@ -3,9 +3,9 @@
 namespace Spatie\Skeleton\Test;
 
 use Spatie\OrElse\Test\TestClass;
+use PHPUnit\Framework\TestCase;
 
-
-class OrElseTest extends \PHPUnit_Framework_TestCase
+class OrElseTest extends TestCase
 {
     /**
      * @var TestClass
